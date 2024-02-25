@@ -30,7 +30,7 @@ export class BaseQuizzComponent implements OnInit {
   }
   button_choose(value:string){
   this.answers.push(value)
-  this.nextStep
+  this.nextStep()
   console.log(this.answers)
   
   }
